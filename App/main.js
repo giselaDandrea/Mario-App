@@ -143,7 +143,7 @@ function filtrarPersonajes() {
     (personaje) => personaje.nombre.toLowerCase() === inputFiltro.toLowerCase()
   );
 
-  if (listaFiltrada.length === 0) {
+  if (listaFiltrada.length == 0) {
     mensaje.html("El personaje no está en la lista");
   }
 
